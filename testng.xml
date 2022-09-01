@@ -14,9 +14,9 @@
         <parameter name="deviceName" value = "OnePlus 5T"/>
         <classes>
             <class name = "com.qa.tests.LoginTests">
-                   <!-- <methods>
+                    <methods>
                         <include name="invalidUsername"></include>
-                    </methods>-->
+                    </methods>
                </class>
            <!-- <class name = "com.qa.tests.ProductTests">
                 <methods>
