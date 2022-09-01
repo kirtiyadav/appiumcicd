@@ -1,0 +1,12 @@
+[ServerLogs INFO ] 2022-08-23 18:36:29.548 com.qa.BaseTest:149 - Appium Server Started
+[ServerLogs INFO ] 2022-08-23 18:36:49.995 com.qa.BaseTest:177 - Appium Server Stopped
+[ServerLogs INFO ] 2022-08-23 18:47:14.965 com.qa.BaseTest:149 - Appium Server Started
+[ServerLogs INFO ] 2022-08-23 18:47:31.225 com.qa.BaseTest:177 - Appium Server Stopped
+[ServerLogs INFO ] 2022-08-23 18:50:23.990 com.qa.BaseTest:149 - Appium Server Started
+[ServerLogs INFO ] 2022-08-23 18:50:40.482 com.qa.BaseTest:177 - Appium Server Stopped
+[ServerLogs INFO ] 2022-08-23 19:20:28.110 com.qa.BaseTest:149 - Appium Server Started
+[ServerLogs INFO ] 2022-08-23 19:20:44.585 com.qa.BaseTest:177 - Appium Server Stopped
+[ServerLogs INFO ] 2022-08-23 19:32:08.216 com.qa.BaseTest:149 -- Appium Server Started
+[ServerLogs INFO ] 2022-08-23 19:32:24.778 com.qa.BaseTest:177 -- Appium Server Stopped
+[ServerLogs INFO ] 2022-08-23 19:40:53.856 com.qa.BaseTest:149 -- Appium Server Started
+[ServerLogs INFO ] 2022-08-23 19:41:10.352 com.qa.BaseTest:177 -- Appium Server Stopped

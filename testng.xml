@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Suite" parallel ="tests">
+
+    <test name="OnePlus 5T">
+        <listeners>
+            <listener class-name = "com.qa.listeners.TestListener"/>
+        </listeners>
+        <parameter name="emulator" value = "false"/>
+        <parameter name="platformName" value = "Android"/>
+<!--        <parameter name="platformVersion" value = "12.0"/>-->
+        <parameter name="udid" value = "89f06fd8"/>
+        <parameter name="systemPort" value = "10000"/>
+        <parameter name="chromeDriverPort" value = "11000"/>
+        <parameter name="deviceName" value = "OnePlus 5T"/>
+        <classes>
+            <class name = "com.qa.tests.LoginTests">
+                   <!-- <methods>
+                        <include name="invalidUsername"></include>
+                    </methods>-->
+               </class>
+           <!-- <class name = "com.qa.tests.ProductTests">
+                <methods>
+                    <include name="validateProductOnProductDetailsPage"></include>
+                </methods>
+            </class>-->
+        </classes>
+    </test>
+
+    <!--<test name="OnePlus Nord2">
+        <listeners>
+            <listener class-name = "com.qa.listeners.TestListener"/>
+        </listeners>
+        <parameter name="emulator" value = "false"/>
+        <parameter name="platformName" value = "Android"/>
+        &lt;!&ndash;        <parameter name="platformVersion" value = "12.0"/>&ndash;&gt;
+        <parameter name="udid" value = "PB6PRKYX7DLB5TVG"/>
+        <parameter name="systemPort" value = "10008"/>
+        <parameter name="chromeDriverPort" value = "11009"/>
+        <parameter name="deviceName" value = "OnePlus Nord2 5G"/>
+        <classes>
+            <class name = "com.qa.tests.LoginTests">
+                &lt;!&ndash; <methods>
+                     <include name="invalidUsername"></include>
+                 </methods>&ndash;&gt;
+            </class>
+            &lt;!&ndash; <class name = "com.qa.tests.ProductTests">
+                 <methods>
+                     <include name="validateProductOnProductDetailsPage"></include>
+                 </methods>
+             </class>&ndash;&gt;
+        </classes>
+    </test>-->
+</suite>

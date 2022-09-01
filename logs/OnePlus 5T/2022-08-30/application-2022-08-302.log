@@ -1,0 +1,10 @@
+[logsOnePlus 5T INFO ] 2022-08-30 18:15:17.978 com.qa.BaseTest:311 -- Entering password : secret_sauce
+[logsOnePlus 5T INFO ] 2022-08-30 18:15:19.326 com.qa.BaseTest:296 -- Clicked on 
+[logsOnePlus 5T INFO ] 2022-08-30 18:15:19.722 com.qa.BaseTest:324 -- Error text is : Username and password do not match any user in this service.
+[logsOnePlus 5T INFO ] 2022-08-30 18:15:20.708 com.qa.tests.LoginTests:67 -- Login After Method
+[logsOnePlus 5T INFO ] 2022-08-30 18:15:22.595 com.qa.tests.LoginTests:58 -- login before Method
+[logsOnePlus 5T INFO ] 2022-08-30 18:15:22.595 com.qa.tests.LoginTests:60 -- ******************successfulLogin test **********************
+[logsOnePlus 5T INFO ] 2022-08-30 18:15:23.520 com.qa.BaseTest:311 -- Login with standard_user
+[logsOnePlus 5T INFO ] 2022-08-30 18:15:25.822 com.qa.BaseTest:311 -- Entering password : secret_sauce
+[logsOnePlus 5T INFO ] 2022-08-30 18:15:27.147 com.qa.BaseTest:296 -- Clicked on 
+[logsOnePlus 5T INFO ] 2022-08-30 18:15:28.977 com.qa.BaseTest:324 -- Product Title is : PRODUCTS

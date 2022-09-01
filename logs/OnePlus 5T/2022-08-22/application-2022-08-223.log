@@ -1,0 +1,7 @@
+[logsOnePlus 5T INFO ] 2022-08-22 21:00:56.131 com.qa.tests.LoginTests:67 - Login After Method
+[logsOnePlus 5T INFO ] 2022-08-22 21:01:25.173 com.qa.tests.LoginTests:58 - login before Method
+[logsOnePlus 5T INFO ] 2022-08-22 21:01:25.301 com.qa.tests.LoginTests:60 - ******************invalidUsername test **********************
+[logsOnePlus 5T INFO ] 2022-08-22 21:01:30.266 com.qa.tests.LoginTests:67 - Login After Method
+[logsOnePlus 5T INFO ] 2022-08-22 21:02:19.850 com.qa.tests.LoginTests:58 - login before Method
+[logsOnePlus 5T INFO ] 2022-08-22 21:02:19.962 com.qa.tests.LoginTests:60 - ******************invalidUsername test **********************
+[logsOnePlus 5T INFO ] 2022-08-22 21:02:24.089 com.qa.tests.LoginTests:67 - Login After Method

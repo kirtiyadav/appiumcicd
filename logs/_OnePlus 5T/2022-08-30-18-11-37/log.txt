@@ -1,0 +1,1 @@
+26:OnePlus 5T:com.qa.BaseTest:=====App URL is C:\Users\Kirti Yadav\IdeaProjects\TDDFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk

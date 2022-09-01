@@ -1,0 +1,10 @@
+[ERROR] 2022-08-22 18:20:57.110 com.qa.BaseTest:142 - This is an error message
+[DEBUG] 2022-08-22 18:20:57.110 com.qa.BaseTest:143 - This is a debug message
+[WARN ] 2022-08-22 18:20:57.110 com.qa.BaseTest:144 - This is a warning message
+[INFO ] 2022-08-22 18:44:20.795 com.qa.BaseTest:141 - This is an info message
+[ERROR] 2022-08-22 18:44:20.795 com.qa.BaseTest:142 - This is an error message
+[DEBUG] 2022-08-22 18:44:20.795 com.qa.BaseTest:143 - This is a debug message
+[WARN ] 2022-08-22 18:44:20.795 com.qa.BaseTest:144 - This is a warning message
+[INFO ] 2022-08-22 18:44:31.684 com.qa.tests.LoginTests:58 - login before Method
+[INFO ] 2022-08-22 18:44:31.963 com.qa.tests.LoginTests:60 - ******************invalidUsername test **********************
+[INFO ] 2022-08-22 18:44:36.529 com.qa.tests.LoginTests:67 - Login After Method

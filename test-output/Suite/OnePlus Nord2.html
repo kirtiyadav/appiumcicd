@@ -1,0 +1,459 @@
+<html>
+<head>
+<title>TestNG:  OnePlus Nord2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>OnePlus Nord2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/3</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 18 21:38:45 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13421 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.LoginTests.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.tests.LoginTests</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The expected screen record file &apos;/sdcard/cd0b8f7c.mp4&apos; does not exist after 5000ms. Is screenrecord utility available and operational on the device under test?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HAB3M0C&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, databaseEnabled: false, desired: {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, deviceName: OnePlus Nord2 5G, ignoreHiddenApiPolicyError: false, noReset: true, platformName: android, systemPort: 10008, udid: PB6PRKYX7DLB5TVG}, deviceApiLevel: 30, deviceManufacturer: OnePlus, deviceModel: DN2101, deviceName: PB6PRKYX7DLB5TVG, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: PB6PRKYX7DLB5TVG, ignoreHiddenApiPolicyError: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 113, systemPort: 10008, takesScreenshot: true, udid: PB6PRKYX7DLB5TVG, viewportRect: {height: 2048, left: 0, top: 113, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 733c7b84-3319-47fd-a7aa-afe842c84998
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.screenrecording.CanRecordScreen.startRecordingScreen(CanRecordScreen.java:47)
+	at com.qa.BaseTest.beforeMethod(BaseTest.java:94)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1359925501", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1359925501'><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The expected screen record file &apos;/sdcard/cd0b8f7c.mp4&apos; does not exist after 5000ms. Is screenrecord utility available and operational on the device under test?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HAB3M0C&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, databaseEnabled: false, desired: {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, deviceName: OnePlus Nord2 5G, ignoreHiddenApiPolicyError: false, noReset: true, platformName: android, systemPort: 10008, udid: PB6PRKYX7DLB5TVG}, deviceApiLevel: 30, deviceManufacturer: OnePlus, deviceModel: DN2101, deviceName: PB6PRKYX7DLB5TVG, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: PB6PRKYX7DLB5TVG, ignoreHiddenApiPolicyError: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 113, systemPort: 10008, takesScreenshot: true, udid: PB6PRKYX7DLB5TVG, viewportRect: {height: 2048, left: 0, top: 113, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 733c7b84-3319-47fd-a7aa-afe842c84998
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.screenrecording.CanRecordScreen.startRecordingScreen(CanRecordScreen.java:47)
+	at com.qa.BaseTest.beforeMethod(BaseTest.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>5</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.LoginTests.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTests.afterTest()'><b>afterTest</b><br>Test class: com.qa.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTests.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTests.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTests.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTests.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTests.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTests.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTests.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTests.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTests.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTests.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.LoginTests.invalidPassword()'><b>invalidPassword</b><br>Test class: com.qa.tests.LoginTests</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The expected screen record file &apos;/sdcard/cd0b8f7c.mp4&apos; does not exist after 5000ms. Is screenrecord utility available and operational on the device under test?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HAB3M0C&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, databaseEnabled: false, desired: {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, deviceName: OnePlus Nord2 5G, ignoreHiddenApiPolicyError: false, noReset: true, platformName: android, systemPort: 10008, udid: PB6PRKYX7DLB5TVG}, deviceApiLevel: 30, deviceManufacturer: OnePlus, deviceModel: DN2101, deviceName: PB6PRKYX7DLB5TVG, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: PB6PRKYX7DLB5TVG, ignoreHiddenApiPolicyError: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 113, systemPort: 10008, takesScreenshot: true, udid: PB6PRKYX7DLB5TVG, viewportRect: {height: 2048, left: 0, top: 113, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 733c7b84-3319-47fd-a7aa-afe842c84998
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.screenrecording.CanRecordScreen.startRecordingScreen(CanRecordScreen.java:47)
+	at com.qa.BaseTest.beforeMethod(BaseTest.java:94)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace969794975", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace969794975'><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The expected screen record file &apos;/sdcard/cd0b8f7c.mp4&apos; does not exist after 5000ms. Is screenrecord utility available and operational on the device under test?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HAB3M0C&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, databaseEnabled: false, desired: {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, deviceName: OnePlus Nord2 5G, ignoreHiddenApiPolicyError: false, noReset: true, platformName: android, systemPort: 10008, udid: PB6PRKYX7DLB5TVG}, deviceApiLevel: 30, deviceManufacturer: OnePlus, deviceModel: DN2101, deviceName: PB6PRKYX7DLB5TVG, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: PB6PRKYX7DLB5TVG, ignoreHiddenApiPolicyError: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 113, systemPort: 10008, takesScreenshot: true, udid: PB6PRKYX7DLB5TVG, viewportRect: {height: 2048, left: 0, top: 113, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 733c7b84-3319-47fd-a7aa-afe842c84998
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.screenrecording.CanRecordScreen.startRecordingScreen(CanRecordScreen.java:47)
+	at com.qa.BaseTest.beforeMethod(BaseTest.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTests.invalidUsername()'><b>invalidUsername</b><br>Test class: com.qa.tests.LoginTests</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The expected screen record file &apos;/sdcard/cd0b8f7c.mp4&apos; does not exist after 5000ms. Is screenrecord utility available and operational on the device under test?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HAB3M0C&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, databaseEnabled: false, desired: {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, deviceName: OnePlus Nord2 5G, ignoreHiddenApiPolicyError: false, noReset: true, platformName: android, systemPort: 10008, udid: PB6PRKYX7DLB5TVG}, deviceApiLevel: 30, deviceManufacturer: OnePlus, deviceModel: DN2101, deviceName: PB6PRKYX7DLB5TVG, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: PB6PRKYX7DLB5TVG, ignoreHiddenApiPolicyError: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 113, systemPort: 10008, takesScreenshot: true, udid: PB6PRKYX7DLB5TVG, viewportRect: {height: 2048, left: 0, top: 113, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 733c7b84-3319-47fd-a7aa-afe842c84998
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.screenrecording.CanRecordScreen.startRecordingScreen(CanRecordScreen.java:47)
+	at com.qa.BaseTest.beforeMethod(BaseTest.java:94)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1173320109", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1173320109'><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The expected screen record file &apos;/sdcard/cd0b8f7c.mp4&apos; does not exist after 5000ms. Is screenrecord utility available and operational on the device under test?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HAB3M0C&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, databaseEnabled: false, desired: {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, deviceName: OnePlus Nord2 5G, ignoreHiddenApiPolicyError: false, noReset: true, platformName: android, systemPort: 10008, udid: PB6PRKYX7DLB5TVG}, deviceApiLevel: 30, deviceManufacturer: OnePlus, deviceModel: DN2101, deviceName: PB6PRKYX7DLB5TVG, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: PB6PRKYX7DLB5TVG, ignoreHiddenApiPolicyError: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 113, systemPort: 10008, takesScreenshot: true, udid: PB6PRKYX7DLB5TVG, viewportRect: {height: 2048, left: 0, top: 113, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 733c7b84-3319-47fd-a7aa-afe842c84998
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.screenrecording.CanRecordScreen.startRecordingScreen(CanRecordScreen.java:47)
+	at com.qa.BaseTest.beforeMethod(BaseTest.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTests.successfulLogin()'><b>successfulLogin</b><br>Test class: com.qa.tests.LoginTests</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The expected screen record file &apos;/sdcard/cd0b8f7c.mp4&apos; does not exist after 5000ms. Is screenrecord utility available and operational on the device under test?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HAB3M0C&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, databaseEnabled: false, desired: {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, deviceName: OnePlus Nord2 5G, ignoreHiddenApiPolicyError: false, noReset: true, platformName: android, systemPort: 10008, udid: PB6PRKYX7DLB5TVG}, deviceApiLevel: 30, deviceManufacturer: OnePlus, deviceModel: DN2101, deviceName: PB6PRKYX7DLB5TVG, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: PB6PRKYX7DLB5TVG, ignoreHiddenApiPolicyError: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 113, systemPort: 10008, takesScreenshot: true, udid: PB6PRKYX7DLB5TVG, viewportRect: {height: 2048, left: 0, top: 113, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 733c7b84-3319-47fd-a7aa-afe842c84998
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.screenrecording.CanRecordScreen.startRecordingScreen(CanRecordScreen.java:47)
+	at com.qa.BaseTest.beforeMethod(BaseTest.java:94)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace708375328", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace708375328'><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The expected screen record file &apos;/sdcard/cd0b8f7c.mp4&apos; does not exist after 5000ms. Is screenrecord utility available and operational on the device under test?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HAB3M0C&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, databaseEnabled: false, desired: {app: C:\Users\Kirti Yadav\IdeaPr..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11009, deviceName: OnePlus Nord2 5G, ignoreHiddenApiPolicyError: false, noReset: true, platformName: android, systemPort: 10008, udid: PB6PRKYX7DLB5TVG}, deviceApiLevel: 30, deviceManufacturer: OnePlus, deviceModel: DN2101, deviceName: PB6PRKYX7DLB5TVG, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: PB6PRKYX7DLB5TVG, ignoreHiddenApiPolicyError: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 113, systemPort: 10008, takesScreenshot: true, udid: PB6PRKYX7DLB5TVG, viewportRect: {height: 2048, left: 0, top: 113, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 733c7b84-3319-47fd-a7aa-afe842c84998
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.screenrecording.CanRecordScreen.startRecordingScreen(CanRecordScreen.java:47)
+	at com.qa.BaseTest.beforeMethod(BaseTest.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.tests.LoginTests@75881071</td></tr>
+</table><p>
+</body>
+</html>

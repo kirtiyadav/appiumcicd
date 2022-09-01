@@ -1,0 +1,9 @@
+com\qa\pages\LoginPage.class
+com\qa\pages\ProductDetailsPage.class
+com\qa\pages\SettingsPage.class
+com\qa\MenuPage.class
+com\qa\BaseTest.class
+com\qa\reports\ExtentReport.class
+com\qa\listeners\TestListener.class
+com\qa\pages\ProductsPage.class
+com\qa\utils\TestUtils.class

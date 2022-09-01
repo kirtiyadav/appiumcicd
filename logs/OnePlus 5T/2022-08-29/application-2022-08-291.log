@@ -1,0 +1,10 @@
+[logsOnePlus 5T INFO ] 2022-08-29 18:17:23.542 com.qa.tests.LoginTests:58 -- login before Method
+[logsOnePlus 5T INFO ] 2022-08-29 18:17:23.631 com.qa.tests.LoginTests:60 -- ******************invalidPassword test **********************
+[logsOnePlus 5T INFO ] 2022-08-29 18:17:24.999 com.qa.BaseTest:311 -- Login with standard_user
+[logsOnePlus 5T INFO ] 2022-08-29 18:17:27.168 com.qa.BaseTest:311 -- Entering password : invalidpassword
+[logsOnePlus 5T INFO ] 2022-08-29 18:17:28.483 com.qa.BaseTest:296 -- Clicked on 
+[logsOnePlus 5T INFO ] 2022-08-29 18:17:29.346 com.qa.BaseTest:324 -- Error text is : Username and password do not match any user in this service.
+[logsOnePlus 5T INFO ] 2022-08-29 18:17:30.439 com.qa.tests.LoginTests:67 -- Login After Method
+[logsOnePlus 5T INFO ] 2022-08-29 18:17:32.294 com.qa.tests.LoginTests:58 -- login before Method
+[logsOnePlus 5T INFO ] 2022-08-29 18:17:32.294 com.qa.tests.LoginTests:60 -- ******************invalidUsername test **********************
+[logsOnePlus 5T INFO ] 2022-08-29 18:17:33.206 com.qa.BaseTest:311 -- Login with invalidusername

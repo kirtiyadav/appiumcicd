@@ -1,0 +1,13 @@
+[INFO ] 2022-08-22 18:19:13.007 com.qa.BaseTest:141 - This is an info message
+[ERROR] 2022-08-22 18:19:13.007 com.qa.BaseTest:142 - This is an error message
+[DEBUG] 2022-08-22 18:19:13.007 com.qa.BaseTest:143 - This is a debug message
+[WARN ] 2022-08-22 18:19:13.007 com.qa.BaseTest:144 - This is a warning message
+[INFO ] 2022-08-22 18:19:37.644 com.qa.BaseTest:141 - This is an info message
+[ERROR] 2022-08-22 18:19:37.644 com.qa.BaseTest:142 - This is an error message
+[DEBUG] 2022-08-22 18:19:37.644 com.qa.BaseTest:143 - This is a debug message
+[WARN ] 2022-08-22 18:19:37.644 com.qa.BaseTest:144 - This is a warning message
+[INFO ] 2022-08-22 18:20:19.581 com.qa.BaseTest:141 - This is an info message
+[ERROR] 2022-08-22 18:20:19.581 com.qa.BaseTest:142 - This is an error message
+[DEBUG] 2022-08-22 18:20:19.590 com.qa.BaseTest:143 - This is a debug message
+[WARN ] 2022-08-22 18:20:19.590 com.qa.BaseTest:144 - This is a warning message
+[INFO ] 2022-08-22 18:20:57.095 com.qa.BaseTest:141 - This is an info message
